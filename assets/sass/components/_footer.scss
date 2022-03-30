@@ -6,7 +6,7 @@
     align-items: center;
     padding: 6rem 2rem;
     color: #fff ;
-    height: 30vh;
+    height: max-content;
     background: linear-gradient($header-background);
     box-shadow: $shadow;
 }
@@ -17,13 +17,28 @@
     flex: 1;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding:0 6rem;
 
     h1{
         padding: 1rem;
     }
-
-    
-
 }
+
+
+// mobile view
+@media only screen and (max-width: 600px){
+    .footer-container{
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .footer-side{
+        padding: 0;
+    }
+
+    .footer-side h1{
+        font-size: 2rem;
+    }
+}
+
