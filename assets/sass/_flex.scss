@@ -1,0 +1,66 @@
+.flex-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 4rem;
+    color: #fff ;
+    height: max-content;
+    width: 100%;
+
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4.3rem ;
+        width: 40rem;
+        height: 20rem;
+        background: rgba(62,142,209,1);
+        background: linear-gradient($primary-gradient);
+        border-radius: 1rem;
+        box-shadow: 0rem 0rem 1rem rgba(0,0,0,0.15);
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        font-family: emoji;
+
+        &:hover{
+            transform: scale(1.05,);
+            background: $cardinal;
+        }
+
+        img{
+            width: 10rem;
+            height: auto;
+            object-fit: cover;
+            border-radius: 1.6rem;
+            filter: drop-shadow( 0rem 0rem 1rem rgba(255, 255, 255 ,.4));
+        }
+
+        h1{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 2.5rem;
+            color: #fff;
+            text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.1);
+            font-family: $feather;
+            width: 100%;
+            transition: all .2s ease-in-out;
+
+            i{
+                display: none;
+            }
+
+        }
+
+        &:hover{
+            i{
+                display: block;
+                transition: all .2s ease-in-out;
+            }
+        }
+        
+    }
+}
