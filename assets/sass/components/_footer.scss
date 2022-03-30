@@ -1,5 +1,29 @@
-footer{
-    height: 20vh;
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 2rem;
+    color: #fff ;
+    height: 30vh;
     background: linear-gradient($header-background);
     box-shadow: $shadow;
+}
+
+
+.footer-side{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 6rem;
+
+    h1{
+        padding: 1rem;
+    }
+
+    
+
 }

@@ -8,8 +8,8 @@ header{
     height: max-content;
     background: linear-gradient($header-background);
     color: #fff;
-    box-shadow: $shadow;
-    font-family: $feather ;
+    box-shadow: $fira_sans;
+    font-family: din ;
 }
 
 .intro{
@@ -17,12 +17,17 @@ header{
     text-align: center;
 
     h1{
-        
+        font-family: $fira_sans;
         font-size: 8rem;
         text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.1);
     }
 
     p{
+        font-size: 4rem;
+        text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.05);
+    }
+    
+    h3{
         font-size: 4rem;
         text-shadow: 0rem 0rem 0.5rem rgba(0,0,0,0.05);
     }

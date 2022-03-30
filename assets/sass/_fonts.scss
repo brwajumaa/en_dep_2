@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Oxygen:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@600&display=swap');
 
 // feather 
 @font-face {
@@ -17,4 +18,9 @@
 @font-face {
     font-family: 'emoji';
     src: url('../fonts/apple_emoji.ttf');
+}
+// firasans emoji
+@font-face {
+    font-family: 'firasans_bold';
+    src: url('../fonts/firasans/FiraSansCondensed-Bold.ttf');
 }
