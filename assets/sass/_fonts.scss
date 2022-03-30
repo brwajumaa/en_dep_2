@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Oxygen:wght@700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=IBM+Plex+Sans+Arabic:wght@500&family=Open+Sans:wght@700&family=Oxygen:wght@700&display=swap');
 // feather 
 @font-face {
     font-family: 'feather';
@@ -19,8 +16,21 @@
     font-family: 'emoji';
     src: url('../fonts/apple_emoji.ttf');
 }
+
 // firasans emoji
 @font-face {
     font-family: 'firasans_bold';
     src: url('../fonts/firasans/FiraSansCondensed-Bold.ttf');
+}
+
+// vazir
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/kurdish/Vazir-Bold.ttf');
+}
+
+// rabar
+@font-face {
+    font-family: 'rabar';
+    src: url('../fonts/kurdish/rabar.woff');
 }

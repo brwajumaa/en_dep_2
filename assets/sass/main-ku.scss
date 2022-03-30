@@ -26,4 +26,18 @@
 
 body{
     direction: rtl;
+
+    *{
+        font-family: vazir;
+
+    }
+    .intro{
+        h1{
+            font-family: vazir;
+        }
+
+        .button-primary, a{
+            font-family: vazir;
+        }
+    }
 }
